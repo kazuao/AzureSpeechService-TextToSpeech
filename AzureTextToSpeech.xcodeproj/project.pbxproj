@@ -62,13 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				0E361F7928B4B05E00C3F3F8 /* AzureTextToSpeechApp.swift */,
-				0E361F7B28B4B05E00C3F3F8 /* ContentView.swift */,
-				0E361F8728B4B13400C3F3F8 /* ViewModel.swift */,
-				0E361F7D28B4B05F00C3F3F8 /* Assets.xcassets */,
-				0E361F8928B4B1A400C3F3F8 /* ApiKey.plist */,
-				0E361F8A28B4B1A400C3F3F8 /* KeyManager.swift */,
-				0E361F8B28B4B1A500C3F3F8 /* RequestBuilder.swift */,
-				0E361F8F28B4B1B000C3F3F8 /* SpeechService.swift */,
+				0EED224928B4D0B000EB0896 /* View */,
+				0EED224B28B4D0B400EB0896 /* ViewModel */,
+				0EED224D28B4D0BD00EB0896 /* Utils */,
+				0EED224C28B4D0B800EB0896 /* Resources */,
 				0E361F7F28B4B05F00C3F3F8 /* Preview Content */,
 			);
 			path = AzureTextToSpeech;
@@ -80,6 +77,41 @@
 				0E361F8028B4B05F00C3F3F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EED224928B4D0B000EB0896 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E361F7B28B4B05E00C3F3F8 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0EED224B28B4D0B400EB0896 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0E361F8728B4B13400C3F3F8 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0EED224C28B4D0B800EB0896 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E361F7D28B4B05F00C3F3F8 /* Assets.xcassets */,
+				0E361F8928B4B1A400C3F3F8 /* ApiKey.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0EED224D28B4D0BD00EB0896 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0E361F8A28B4B1A400C3F3F8 /* KeyManager.swift */,
+				0E361F8B28B4B1A500C3F3F8 /* RequestBuilder.swift */,
+				0E361F8F28B4B1B000C3F3F8 /* SpeechService.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
